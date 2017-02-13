@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B1919AE1E521111007FB137 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1919AD1E521111007FB137 /* main.m */; };
+		1B1919B11E521111007FB137 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1919B01E521111007FB137 /* AppDelegate.m */; };
+		1B1919B41E521111007FB137 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1919B31E521111007FB137 /* ViewController.m */; };
+		1B1919B71E521111007FB137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1919B51E521111007FB137 /* Main.storyboard */; };
+		1B1919B91E521111007FB137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1919B81E521111007FB137 /* Assets.xcassets */; };
+		1B1919BC1E521111007FB137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1919BA1E521111007FB137 /* LaunchScreen.storyboard */; };
+		1B1919C71E521111007FB137 /* HoleForiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1919C61E521111007FB137 /* HoleForiOSTests.m */; };
+		1B1919D21E521111007FB137 /* HoleForiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1919D11E521111007FB137 /* HoleForiOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B1919C31E521111007FB137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B1919A11E521111007FB137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B1919A81E521111007FB137;
+			remoteInfo = HoleForiOS;
+		};
+		1B1919CE1E521111007FB137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B1919A11E521111007FB137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B1919A81E521111007FB137;
+			remoteInfo = HoleForiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B1919A91E521111007FB137 /* HoleForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoleForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1919AD1E521111007FB137 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B1919AF1E521111007FB137 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B1919B01E521111007FB137 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B1919B21E521111007FB137 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B1919B31E521111007FB137 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B1919B61E521111007FB137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B1919B81E521111007FB137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B1919BB1E521111007FB137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B1919BD1E521111007FB137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B1919C21E521111007FB137 /* HoleForiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoleForiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1919C61E521111007FB137 /* HoleForiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoleForiOSTests.m; sourceTree = "<group>"; };
+		1B1919C81E521111007FB137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B1919CD1E521111007FB137 /* HoleForiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoleForiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1919D11E521111007FB137 /* HoleForiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoleForiOSUITests.m; sourceTree = "<group>"; };
+		1B1919D31E521111007FB137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B1919A61E521111007FB137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1919BF1E521111007FB137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1919CA1E521111007FB137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B1919A01E521111007FB137 = {
+			isa = PBXGroup;
+			children = (
+				1B1919AB1E521111007FB137 /* HoleForiOS */,
+				1B1919C51E521111007FB137 /* HoleForiOSTests */,
+				1B1919D01E521111007FB137 /* HoleForiOSUITests */,
+				1B1919AA1E521111007FB137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B1919AA1E521111007FB137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B1919A91E521111007FB137 /* HoleForiOS.app */,
+				1B1919C21E521111007FB137 /* HoleForiOSTests.xctest */,
+				1B1919CD1E521111007FB137 /* HoleForiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B1919AB1E521111007FB137 /* HoleForiOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B1919AF1E521111007FB137 /* AppDelegate.h */,
+				1B1919B01E521111007FB137 /* AppDelegate.m */,
+				1B1919B21E521111007FB137 /* ViewController.h */,
+				1B1919B31E521111007FB137 /* ViewController.m */,
+				1B1919B51E521111007FB137 /* Main.storyboard */,
+				1B1919B81E521111007FB137 /* Assets.xcassets */,
+				1B1919BA1E521111007FB137 /* LaunchScreen.storyboard */,
+				1B1919BD1E521111007FB137 /* Info.plist */,
+				1B1919AC1E521111007FB137 /* Supporting Files */,
+			);
+			path = HoleForiOS;
+			sourceTree = "<group>";
+		};
+		1B1919AC1E521111007FB137 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B1919AD1E521111007FB137 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B1919C51E521111007FB137 /* HoleForiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B1919C61E521111007FB137 /* HoleForiOSTests.m */,
+				1B1919C81E521111007FB137 /* Info.plist */,
+			);
+			path = HoleForiOSTests;
+			sourceTree = "<group>";
+		};
+		1B1919D01E521111007FB137 /* HoleForiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B1919D11E521111007FB137 /* HoleForiOSUITests.m */,
+				1B1919D31E521111007FB137 /* Info.plist */,
+			);
+			path = HoleForiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B1919A81E521111007FB137 /* HoleForiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B1919D61E521111007FB137 /* Build configuration list for PBXNativeTarget "HoleForiOS" */;
+			buildPhases = (
+				1B1919A51E521111007FB137 /* Sources */,
+				1B1919A61E521111007FB137 /* Frameworks */,
+				1B1919A71E521111007FB137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoleForiOS;
+			productName = HoleForiOS;
+			productReference = 1B1919A91E521111007FB137 /* HoleForiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B1919C11E521111007FB137 /* HoleForiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B1919D91E521111007FB137 /* Build configuration list for PBXNativeTarget "HoleForiOSTests" */;
+			buildPhases = (
+				1B1919BE1E521111007FB137 /* Sources */,
+				1B1919BF1E521111007FB137 /* Frameworks */,
+				1B1919C01E521111007FB137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B1919C41E521111007FB137 /* PBXTargetDependency */,
+			);
+			name = HoleForiOSTests;
+			productName = HoleForiOSTests;
+			productReference = 1B1919C21E521111007FB137 /* HoleForiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B1919CC1E521111007FB137 /* HoleForiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B1919DC1E521111007FB137 /* Build configuration list for PBXNativeTarget "HoleForiOSUITests" */;
+			buildPhases = (
+				1B1919C91E521111007FB137 /* Sources */,
+				1B1919CA1E521111007FB137 /* Frameworks */,
+				1B1919CB1E521111007FB137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B1919CF1E521111007FB137 /* PBXTargetDependency */,
+			);
+			name = HoleForiOSUITests;
+			productName = HoleForiOSUITests;
+			productReference = 1B1919CD1E521111007FB137 /* HoleForiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B1919A11E521111007FB137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = huaral;
+				TargetAttributes = {
+					1B1919A81E521111007FB137 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					1B1919C11E521111007FB137 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B1919A81E521111007FB137;
+					};
+					1B1919CC1E521111007FB137 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B1919A81E521111007FB137;
+					};
+				};
+			};
+			buildConfigurationList = 1B1919A41E521111007FB137 /* Build configuration list for PBXProject "HoleForiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B1919A01E521111007FB137;
+			productRefGroup = 1B1919AA1E521111007FB137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B1919A81E521111007FB137 /* HoleForiOS */,
+				1B1919C11E521111007FB137 /* HoleForiOSTests */,
+				1B1919CC1E521111007FB137 /* HoleForiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B1919A71E521111007FB137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1919BC1E521111007FB137 /* LaunchScreen.storyboard in Resources */,
+				1B1919B91E521111007FB137 /* Assets.xcassets in Resources */,
+				1B1919B71E521111007FB137 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1919C01E521111007FB137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1919CB1E521111007FB137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B1919A51E521111007FB137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1919B41E521111007FB137 /* ViewController.m in Sources */,
+				1B1919B11E521111007FB137 /* AppDelegate.m in Sources */,
+				1B1919AE1E521111007FB137 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1919BE1E521111007FB137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1919C71E521111007FB137 /* HoleForiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1919C91E521111007FB137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1919D21E521111007FB137 /* HoleForiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B1919C41E521111007FB137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B1919A81E521111007FB137 /* HoleForiOS */;
+			targetProxy = 1B1919C31E521111007FB137 /* PBXContainerItemProxy */;
+		};
+		1B1919CF1E521111007FB137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B1919A81E521111007FB137 /* HoleForiOS */;
+			targetProxy = 1B1919CE1E521111007FB137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B1919B51E521111007FB137 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B1919B61E521111007FB137 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B1919BA1E521111007FB137 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B1919BB1E521111007FB137 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B1919D41E521111007FB137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B1919D51E521111007FB137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B1919D71E521111007FB137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HoleForiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.huaral.HoleForiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B1919D81E521111007FB137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HoleForiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.huaral.HoleForiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B1919DA1E521111007FB137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HoleForiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.huaral.HoleForiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoleForiOS.app/HoleForiOS";
+			};
+			name = Debug;
+		};
+		1B1919DB1E521111007FB137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HoleForiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.huaral.HoleForiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoleForiOS.app/HoleForiOS";
+			};
+			name = Release;
+		};
+		1B1919DD1E521111007FB137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HoleForiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.huaral.HoleForiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HoleForiOS;
+			};
+			name = Debug;
+		};
+		1B1919DE1E521111007FB137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HoleForiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.huaral.HoleForiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HoleForiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B1919A41E521111007FB137 /* Build configuration list for PBXProject "HoleForiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1919D41E521111007FB137 /* Debug */,
+				1B1919D51E521111007FB137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B1919D61E521111007FB137 /* Build configuration list for PBXNativeTarget "HoleForiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1919D71E521111007FB137 /* Debug */,
+				1B1919D81E521111007FB137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B1919D91E521111007FB137 /* Build configuration list for PBXNativeTarget "HoleForiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1919DA1E521111007FB137 /* Debug */,
+				1B1919DB1E521111007FB137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B1919DC1E521111007FB137 /* Build configuration list for PBXNativeTarget "HoleForiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1919DD1E521111007FB137 /* Debug */,
+				1B1919DE1E521111007FB137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B1919A11E521111007FB137 /* Project object */;
+}
