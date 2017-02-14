@@ -1,0 +1,22 @@
+//
+//  ParameterConfiguration.pch
+//  HoleForiOS
+//
+//  Created by len on 17/2/14.
+//  Copyright © 2017年 huaral. All rights reserved.
+//
+
+#ifndef ParameterConfiguration_pch
+#define ParameterConfiguration_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+/*
+    SCREEN Parameter
+ */
+#define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
+
+#endif /* ParameterConfiguration_pch */
