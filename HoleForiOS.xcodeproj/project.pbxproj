@@ -15,6 +15,16 @@
 		1B1919BC1E521111007FB137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1919BA1E521111007FB137 /* LaunchScreen.storyboard */; };
 		1B1919C71E521111007FB137 /* HoleForiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1919C61E521111007FB137 /* HoleForiOSTests.m */; };
 		1B1919D21E521111007FB137 /* HoleForiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1919D11E521111007FB137 /* HoleForiOSUITests.m */; };
+		BFDCDFD11E52AB7600C21743 /* hole_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BFDCDFD01E52AB7600C21743 /* hole_logo.png */; };
+		BFDCDFD91E52B57600C21743 /* H_SideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDCDFD71E52B57600C21743 /* H_SideViewController.m */; };
+		BFDCDFDA1E52B57600C21743 /* H_SideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDCDFD81E52B57600C21743 /* H_SideViewController.xib */; };
+		BFDCDFDC1E52C82600C21743 /* H_HomeNavigationBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDCDFDB1E52C82600C21743 /* H_HomeNavigationBarView.xib */; };
+		BFDCDFDE1E52C8A900C21743 /* ic_nav_menu_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = BFDCDFDD1E52C8A900C21743 /* ic_nav_menu_24dp.png */; };
+		BFDCDFE01E52C8BF00C21743 /* ic_add_story_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = BFDCDFDF1E52C8BF00C21743 /* ic_add_story_black_24dp.png */; };
+		BFDCDFE21E52C8F200C21743 /* ic_search_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = BFDCDFE11E52C8F200C21743 /* ic_search_black_24dp.png */; };
+		BFDCDFE51E52CBFC00C21743 /* H_HomeNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDCDFE41E52CBFC00C21743 /* H_HomeNavigationBarView.m */; };
+		BFDCDFE91E52D4E900C21743 /* ic_sider_user.png in Resources */ = {isa = PBXBuildFile; fileRef = BFDCDFE81E52D4E900C21743 /* ic_sider_user.png */; };
+		BFDCDFEB1E52D51D00C21743 /* H_SiderTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDCDFEA1E52D51D00C21743 /* H_SiderTableHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,19 @@
 		1B1919CD1E521111007FB137 /* HoleForiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoleForiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1919D11E521111007FB137 /* HoleForiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoleForiOSUITests.m; sourceTree = "<group>"; };
 		1B1919D31E521111007FB137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDCDFD01E52AB7600C21743 /* hole_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hole_logo.png; sourceTree = "<group>"; };
+		BFDCDFD21E52B3DE00C21743 /* ParameterConfiguration.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParameterConfiguration.pch; sourceTree = "<group>"; };
+		BFDCDFD61E52B57600C21743 /* H_SideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H_SideViewController.h; sourceTree = "<group>"; };
+		BFDCDFD71E52B57600C21743 /* H_SideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H_SideViewController.m; sourceTree = "<group>"; };
+		BFDCDFD81E52B57600C21743 /* H_SideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = H_SideViewController.xib; sourceTree = "<group>"; };
+		BFDCDFDB1E52C82600C21743 /* H_HomeNavigationBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = H_HomeNavigationBarView.xib; sourceTree = "<group>"; };
+		BFDCDFDD1E52C8A900C21743 /* ic_nav_menu_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav_menu_24dp.png; sourceTree = "<group>"; };
+		BFDCDFDF1E52C8BF00C21743 /* ic_add_story_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_add_story_black_24dp.png; sourceTree = "<group>"; };
+		BFDCDFE11E52C8F200C21743 /* ic_search_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_search_black_24dp.png; sourceTree = "<group>"; };
+		BFDCDFE31E52CBFC00C21743 /* H_HomeNavigationBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H_HomeNavigationBarView.h; sourceTree = "<group>"; };
+		BFDCDFE41E52CBFC00C21743 /* H_HomeNavigationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H_HomeNavigationBarView.m; sourceTree = "<group>"; };
+		BFDCDFE81E52D4E900C21743 /* ic_sider_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_sider_user.png; sourceTree = "<group>"; };
+		BFDCDFEA1E52D51D00C21743 /* H_SiderTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = H_SiderTableHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +124,9 @@
 		1B1919AB1E521111007FB137 /* HoleForiOS */ = {
 			isa = PBXGroup;
 			children = (
+				BFDCDFD31E52B4EB00C21743 /* Common */,
+				BFDCDFD41E52B4EB00C21743 /* View */,
+				BFDCDFD51E52B4EB00C21743 /* ViewController */,
 				1B1919AF1E521111007FB137 /* AppDelegate.h */,
 				1B1919B01E521111007FB137 /* AppDelegate.m */,
 				1B1919B21E521111007FB137 /* ViewController.h */,
@@ -109,6 +135,7 @@
 				1B1919B81E521111007FB137 /* Assets.xcassets */,
 				1B1919BA1E521111007FB137 /* LaunchScreen.storyboard */,
 				1B1919BD1E521111007FB137 /* Info.plist */,
+				BFDCDFC51E52A57A00C21743 /* hole_img */,
 				1B1919AC1E521111007FB137 /* Supporting Files */,
 			);
 			path = HoleForiOS;
@@ -118,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				1B1919AD1E521111007FB137 /* main.m */,
+				BFDCDFD21E52B3DE00C21743 /* ParameterConfiguration.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +166,46 @@
 				1B1919D31E521111007FB137 /* Info.plist */,
 			);
 			path = HoleForiOSUITests;
+			sourceTree = "<group>";
+		};
+		BFDCDFC51E52A57A00C21743 /* hole_img */ = {
+			isa = PBXGroup;
+			children = (
+				BFDCDFE81E52D4E900C21743 /* ic_sider_user.png */,
+				BFDCDFE11E52C8F200C21743 /* ic_search_black_24dp.png */,
+				BFDCDFDF1E52C8BF00C21743 /* ic_add_story_black_24dp.png */,
+				BFDCDFDD1E52C8A900C21743 /* ic_nav_menu_24dp.png */,
+				BFDCDFD01E52AB7600C21743 /* hole_logo.png */,
+			);
+			path = hole_img;
+			sourceTree = "<group>";
+		};
+		BFDCDFD31E52B4EB00C21743 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BFDCDFD41E52B4EB00C21743 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFDCDFE31E52CBFC00C21743 /* H_HomeNavigationBarView.h */,
+				BFDCDFE41E52CBFC00C21743 /* H_HomeNavigationBarView.m */,
+				BFDCDFDB1E52C82600C21743 /* H_HomeNavigationBarView.xib */,
+				BFDCDFEA1E52D51D00C21743 /* H_SiderTableHeaderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFDCDFD51E52B4EB00C21743 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BFDCDFD61E52B57600C21743 /* H_SideViewController.h */,
+				BFDCDFD71E52B57600C21743 /* H_SideViewController.m */,
+				BFDCDFD81E52B57600C21743 /* H_SideViewController.xib */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,11 +270,13 @@
 		1B1919A11E521111007FB137 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = H_;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = huaral;
 				TargetAttributes = {
 					1B1919A81E521111007FB137 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GY3B636822;
 						ProvisioningStyle = Automatic;
 					};
 					1B1919C11E521111007FB137 = {
@@ -246,9 +316,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDCDFD11E52AB7600C21743 /* hole_logo.png in Resources */,
+				BFDCDFDA1E52B57600C21743 /* H_SideViewController.xib in Resources */,
+				BFDCDFDC1E52C82600C21743 /* H_HomeNavigationBarView.xib in Resources */,
+				BFDCDFE21E52C8F200C21743 /* ic_search_black_24dp.png in Resources */,
 				1B1919BC1E521111007FB137 /* LaunchScreen.storyboard in Resources */,
 				1B1919B91E521111007FB137 /* Assets.xcassets in Resources */,
 				1B1919B71E521111007FB137 /* Main.storyboard in Resources */,
+				BFDCDFDE1E52C8A900C21743 /* ic_nav_menu_24dp.png in Resources */,
+				BFDCDFEB1E52D51D00C21743 /* H_SiderTableHeaderView.xib in Resources */,
+				BFDCDFE01E52C8BF00C21743 /* ic_add_story_black_24dp.png in Resources */,
+				BFDCDFE91E52D4E900C21743 /* ic_sider_user.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +351,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDCDFD91E52B57600C21743 /* H_SideViewController.m in Sources */,
 				1B1919B41E521111007FB137 /* ViewController.m in Sources */,
+				BFDCDFE51E52CBFC00C21743 /* H_HomeNavigationBarView.m in Sources */,
 				1B1919B11E521111007FB137 /* AppDelegate.m in Sources */,
 				1B1919AE1E521111007FB137 /* main.m in Sources */,
 			);
@@ -360,6 +440,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HoleForiOS/ParameterConfiguration.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -406,6 +487,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HoleForiOS/ParameterConfiguration.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -424,7 +506,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GY3B636822;
 				INFOPLIST_FILE = HoleForiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.huaral.HoleForiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +519,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GY3B636822;
 				INFOPLIST_FILE = HoleForiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.huaral.HoleForiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +593,7 @@
 				1B1919D81E521111007FB137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B1919D91E521111007FB137 /* Build configuration list for PBXNativeTarget "HoleForiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +602,7 @@
 				1B1919DB1E521111007FB137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B1919DC1E521111007FB137 /* Build configuration list for PBXNativeTarget "HoleForiOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +611,7 @@
 				1B1919DE1E521111007FB137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
